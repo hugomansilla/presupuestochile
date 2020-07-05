@@ -1,0 +1,20 @@
+Package: presupuestochile
+Title: Descarga automática de archivos JSON de
+        presupuestoabierto.gob.cl
+Version: 1.0.0.0
+Authors@R: 
+    person(given = "Hugo",
+           family = "Mansilla",
+           role = c("aut", "cre"),
+           email = "hugomansilla@gmail.com")
+Description: presupuestochile permite descargar automáticamente los archivos JSON de la página web presupuestoabierto.gob.cl. La descarga se puede realizar por organización o región. 
+Depends: R (>= 3.4.2)
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports: dplyr, jsonlite
+RoxygenNote: 6.1.1
+NeedsCompilation: no
+Packaged: 2020-07-05 00:36:09 UTC; Natalia
+Author: Hugo Mansilla [aut, cre]
+Maintainer: Hugo Mansilla <hugomansilla@gmail.com>
