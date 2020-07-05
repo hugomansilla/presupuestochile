@@ -15,6 +15,6 @@ LazyData: true
 Imports: dplyr, jsonlite
 RoxygenNote: 6.1.1
 NeedsCompilation: no
-Packaged: 2020-07-05 00:36:09 UTC; Natalia
+Packaged: 2020-07-05 00:36:09 UTC
 Author: Hugo Mansilla [aut, cre]
 Maintainer: Hugo Mansilla <hugomansilla@gmail.com>
