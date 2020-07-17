@@ -13,12 +13,19 @@ devtools::install_github("hugomansilla/presupuestochile")
 # load library 
 library(presupuestochile)
 
-# config parameters
+# Examples
+
+# config parameters 
 ruts <- c("70005600-7","81591900-9","70892200-5","72109700-5")
 years <- c(2016,2017,2018,2019,2020)
+region <- 12
 
-# call function 
+# download data by recipient of public resources 
 descargar_datos_receptor(ruts,years)
+
+# download data by region of Chile
+descargar_datos_region(region,years)
+
 ```
 ## GIT
 To download the latest source from the Git server do this:
