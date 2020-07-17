@@ -10,8 +10,21 @@ devtools::install_github("hugomansilla/presupuestochile")
 ```
 ## Usage
 ``` r
-library(ggplot2)
+library(presupuestochile)
 
-ggplot(mpg, aes(displ, hwy, colour = class)) + 
-  geom_point()
+ruts <- c("70005600-7","81591900-9","70892200-5","72109700-5")
+years <- c(2016,2017,2018,2019,2020)
+
+descargar_datos_receptor(ruts,years)
+
 ```
+## GIT
+To download the very latest source from the Git server do this:
+
+``` r
+git clone https://github.com/hugomansilla/presupuestochile.git
+```
+(you'll get a directory named presupuestochile, filled with the source code)
+
+## Contact
+If you have problems, questions, ideas or suggestions, please contact me at this email: hugomansilla@gmail.com
