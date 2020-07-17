@@ -1,7 +1,7 @@
 # presupuestochile
 
 ## Overview
-This package has been designed to download and consolidate JSON files from the webpage 'presupuestoabierto.gob.cl'.
+This package has been designed to download and consolidate JSON files from the webpage www.presupuestoabierto.gob.cl.
 
 ## Installation
 ``` r
