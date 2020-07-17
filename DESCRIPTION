@@ -7,7 +7,7 @@ Authors@R:
            family = "Mansilla",
            role = c("aut", "cre"),
            email = "hugomansilla@gmail.com")
-Description: presupuestochile permite descargar automáticamente los archivos JSON de la página web presupuestoabierto.gob.cl. La descarga se puede realizar por organización o región. 
+Description: presupuestochile permite descargar automáticamente los archivos JSON de la página web presupuestoabierto.gob.cl. La descarga se puede realizar por institución, receptor de recursos públicos o región. 
 Depends: R (>= 3.4.2)
 License: GPL-2
 Encoding: UTF-8
