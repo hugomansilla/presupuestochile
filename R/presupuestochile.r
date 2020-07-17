@@ -12,4 +12,7 @@
 #' \dontrun{
 #' descargar_datos_receptor(c("70005600-7","81591900-9"),c(2016,2017,2018,2019),val=TRUE)
 #' }
+#' \dontrun{
+#' descargar_datos_region(region=12,c(2016,2017,2018,2019,2020))
+#' }
 "_PACKAGE"
