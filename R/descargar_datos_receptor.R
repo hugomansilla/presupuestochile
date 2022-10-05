@@ -58,7 +58,7 @@ function(ruts,years,val=FALSE){
       year <- years[i]
 
       # Guardar URI
-      uri[[i]] <- paste0("https://presupuestoabierto.gob.cl/api/v1/data/pagos?where={%22beneficiario%22:%22",rut,"%22,%22periodo%22:",year,"}")
+      uri[[i]] <- paste0("https://api.presupuestoabierto.gob.cl/api/v1/data/pagos?where={%22beneficiario%22:%22",rut,"%22,%22periodo%22:",year,"}")
 
       # Leer JSON
       bases[[i]] <- fromJSON(uri[[i]])
