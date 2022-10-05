@@ -48,7 +48,7 @@ function(region,years){
     year <- years[i]
 
     # Guardar URI
-    uri[[i]] <- paste0("https://presupuestoabierto.gob.cl/api/v1/data/pagos?group-by=[%22partida%22,%22capitulo%22,%22area%22]&where={%22region%22:",region,",%22periodo%22:",year,"}")
+    uri[[i]] <- paste0("https://api.presupuestoabierto.gob.cl/api/v1/data/pagos?group-by=[%22partida%22,%22capitulo%22,%22area%22]&where={%22region%22:",region,",%22periodo%22:",year,"}")
 
     # Leer JSON
     bases[[i]] <- fromJSON(uri[[i]])
