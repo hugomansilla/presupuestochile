@@ -13,11 +13,11 @@ devtools::install_github("hugomansilla/presupuestochile")
 # load library 
 library(presupuestochile)
 
-# Examples
+## Examples
 
 # config parameters 
 ruts <- c("70005600-7","81591900-9","70892200-5","72109700-5")
-years <- c(2016,2017,2018,2019,2020)
+years <- c(2016,2017,2018,2019,2020,2021,2022)
 region <- 12
 
 # download data by recipient of public resources 
