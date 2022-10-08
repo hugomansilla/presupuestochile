@@ -21,10 +21,10 @@ years <- c(2016,2017,2018,2019,2020,2021,2022)
 region <- 12
 
 # download data by recipient of public resources 
-descargar_datos_receptor(ruts,years)
+data_receptor <- descargar_datos_receptor(ruts,years)
 
 # download data by region of Chile
-descargar_datos_region(region,years)
+data_region <- descargar_datos_region(region,years)
 
 ```
 ## GIT
